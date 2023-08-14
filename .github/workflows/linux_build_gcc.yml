@@ -26,7 +26,7 @@ jobs:
       run: ACLOCAL_PATH=/usr/share/aclocal ./autogen.sh
 
     - name: configure
-      run: ./configure --with-qat_hw_dir=$PWD
+      run: ./configure --with-qat_hw_dir=$PWD --with-openssl_install_dir=$PWD/openssl_install
     
     - name: make depend
       run: make depend
