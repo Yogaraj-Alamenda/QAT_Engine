@@ -13,6 +13,8 @@ Depending on the particular use case, the QAT_Engine can be configured to accele
 via the QAT Hardware or QAT Software or both based on the platform to meet your specific
 acceleration needs.
 
+
+
 <p align=center>
 <img src="docs/images/qat_engine.png" alt="drawing" width="300"/>
 </p>
